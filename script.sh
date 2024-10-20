@@ -5,7 +5,7 @@ hash_flag() {
     echo -n "$1" | sha256sum | awk '{print $1}'
 }
 
-CORRECT_HASH="50ea7be4eeb62777c05b06e21e9e5f6e8ce39442e7efbd17da8d57d5b18f5035"
+CORRECT_HASH="df85ee28ffdd63abfaa5118f5df3868905a01f65201d108f2ffe0c51da7ef572"
 
 submitted_flag=$(cat flag.txt)
 
